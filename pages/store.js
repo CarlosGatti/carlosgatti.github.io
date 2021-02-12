@@ -39,6 +39,16 @@ export default function Home() {
             <p>Great cost benefit for those who need to purchase a cell phone.</p>
           </a>
 
+          <a href="https://amzn.to/3qlnaBW" className={styles.card}>
+            <h3>Razer Cynosa V2 Keyboard</h3>
+            <p>Great keyboard for those who like to program and / or play.</p>
+          </a>
+
+          <a href="https://amzn.to/3jJBBNw" className={styles.card}>
+            <h3>SAMSUNG 55-Inch UHD</h3>
+            <p>Great television for those who like image quality.</p>
+          </a>
+
         </div>
       </main>
 
