@@ -118,6 +118,10 @@
   height: 8em;
 }
 
+.gattismall {
+  height: 5em;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

@@ -11,10 +11,7 @@ export default function Home() {
 
       <main className={styles.main}>
 
-
         <img src="/gatti-foto.png" alt="gatti-foto" className={styles.gatti} />
-
-
 
         <h1 className={styles.title}>
           Carlos Gatti
@@ -36,7 +33,7 @@ export default function Home() {
             <h3>GitHub</h3>
             <p>Repositories of my personal projects.</p>
           </a>
-          <a href="#" className={styles.card}>
+          <a href="/store" className={styles.card}>
             <h3>Store</h3>
             <p>My personal references for books, courses and products.</p>
           </a>
