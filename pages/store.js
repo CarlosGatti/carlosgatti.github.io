@@ -49,12 +49,18 @@ export default function Home() {
             <p>Great television for those who like image quality.</p>
           </a>
 
+          <a href="https://amzn.to/3pkmPOu" className={styles.card}>
+            <h3>Philips Hue Go White and Color Portable Dimmable LED</h3>
+            <p>(Bluetooth & Zigbee) Smart Light Table Lamp, White.</p>
+          </a>
+
+          <a href="https://amzn.to/2N1aZMe" className={styles.card}>
+            <h3>WD 6TB My Cloud Home Personal Cloud</h3>
+            <p>Network Attached Storage - NAS - WDBVXC0060HWT-NESN</p>
+          </a>
+
         </div>
       </main>
-
-      <footer className={styles.footer}>
-
-      </footer>
     </div>
   )
 }
