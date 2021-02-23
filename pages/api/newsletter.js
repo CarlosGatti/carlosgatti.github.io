@@ -1,3 +1,5 @@
+//newsletter api
+
 async function newsletter(request, response) {
   const apiSecret = process.env.CONVERTKIT_API_SECRET;
   const dynamicDate = new Date();
