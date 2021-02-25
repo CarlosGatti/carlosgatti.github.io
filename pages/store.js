@@ -1,13 +1,13 @@
-import Head from 'next/head'
+
+
+// pages/index.js
+
+import Layout from "../components/Layout";
 import styles from '../styles/Home.module.css'
 
-export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Store - Carlos Gatti</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+const Store = () => <Layout>
+
+<div className={styles.container}>
 
       <main className={styles.main}>
 
@@ -59,8 +59,21 @@ export default function Home() {
             <p>Network Attached Storage - NAS - WDBVXC0060HWT-NESN</p>
           </a>
 
+          <a href="https://amzn.to/2NXHpY3" className={styles.card}>
+            <h3>Razer Basilisk X HyperSpeed - Gaming Mouse</h3>
+            <p>Bluetooth & Wireless Compatible, 16K DPI Optical Sensor.</p>
+          </a>
+
+          <a href="https://amzn.to/2NBUlTy" className={styles.card}>
+            <h3>Nintendo Switch - Mario Red & Blue Edition</h3>
+            <p>This Nintendo Switch system takes inspiration from Mario.</p>
+          </a>
+
+
         </div>
       </main>
     </div>
-  )
-}
+
+</Layout>;
+
+export default Store;
