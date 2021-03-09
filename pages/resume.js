@@ -21,9 +21,8 @@ export default function Home() {
           Full-Stack Developer.
         </p>
 
-        <div className={styles.grid}>
-        
-                 </div>
+
+
       </main>
     </div>
   )

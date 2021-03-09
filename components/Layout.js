@@ -1,6 +1,7 @@
 // components/Layout.js
 
 import Header from "./Header";
+import NavBar from "./Navbar";
 
 const layoutStyle = {
   display: "flex",
@@ -18,7 +19,7 @@ const contentStyle = {
 const Layout = props => (
   <div className="Layout" style={layoutStyle}>
     <Header />
-
+    <NavBar />
     <div className="Content" style={contentStyle}>
       {props.children}
     </div>
