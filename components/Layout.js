@@ -2,6 +2,7 @@
 
 import Header from "./Header";
 import NavBar from "./Navbar";
+import Footer from "./Footer";
 
 const layoutStyle = {
   display: "flex",
@@ -24,7 +25,7 @@ const Layout = props => (
     <div className="Content" style={contentStyle}>
       {props.children}
     </div>
-
+    <Footer/>
   </div>
 );
 
