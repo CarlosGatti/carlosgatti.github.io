@@ -103,7 +103,7 @@
                     <li>
                       <a
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="/store"
+                        href="https://open.spotify.com/playlist/5PQmPiJihgnN7GvhUZ7i3z?si=GYXQCmIVSDeREc1QhBt5iQ"
                       >
                         Spotify
                       </a>
