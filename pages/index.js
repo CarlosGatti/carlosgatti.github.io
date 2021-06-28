@@ -24,11 +24,10 @@ const Index = () => <Layout>
                     <p>It is a good place to learn about my career.</p>
                 </a>
 
-                <a href="https://www.linkedin.com/resume-builder/urn:li:fs_memberResume:15992498/?edit=true" className={styles.card}>
+                <a href="https://www.linkedin.com/resume-builder/urn:li:fs_memberResume:19647922/?edit=true" className={styles.card}>
                     <h3>Resume</h3>
                     <p>It is a good place to learn about my career.</p>
                 </a>
-
 
                 <a
                     href="https://github.com/carlosgatti/"
